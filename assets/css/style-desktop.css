@@ -3,7 +3,8 @@ body {
     font-size: 1.2rem;
     font-family: 'Open sans';
     line-height: 1.65;
-    max-width: 500px;
+    min-width: 1366px;
+    max-width: 1920px;
     margin: auto;
 }
 
@@ -17,32 +18,30 @@ h1, h2, h3, h4, h5, h6 {
 #header {
     width: 100%;
     background-color: #000000;
-    height: 8vh;
+    height: 10vh;
 }
 
 #logo {
-    display: block;
-    margin: auto;
     width: 150px;
-    padding-top: 0.5em;
+    padding-top: 1em;
+    padding-left: 1em;
 }
 
 #banner-box {
     background-image: url('../images/banner.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
-    height: 350px;
+    height: 500px;
 }
 
 .banner-text {
     padding-top: 2em;
-    width: 80%;
+    width: 50%;
     margin: auto;
 }
 
 .banner-text h1 {
-    font-size: 1.5em;
+    font-size: 3em;
 }
 
 .banner-text p {
@@ -50,6 +49,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 1.5em;
     width: 80%;
     margin: auto;
+    font-size: 1.5em;
 }
 
 button {
@@ -61,39 +61,51 @@ button {
     width: 180px;
     height: 50px;
     font-size: 1em;
+    margin-top: 0.5em;
 }
 
 #secondary-content {
-    text-align: center;
+    width: 65%;
+    margin: auto;
+    margin-top: 3.5em;
+    height: 500px;
+    margin-bottom: 3.5em;
 }
 
 #secondary-content img {
     border-radius: 50%;
-    margin-bottom: 1.5em;
+    float: left;
+    width: 40%;
+    margin-right: 5em;
+}
+
+#secondary-content h2 {
+    font-size: 1.4em;
 }
 
 #secondary-content p {
     margin-bottom: 2em;
-    width: 80%;
-    margin: auto;
-    margin-bottom: 2em;
+}
+
+#secondary-content-text {
+    width: auto;
 }
 
 #testimonianze {
     background-color: #e22d0e;
     color: #ffff;
-    height: 300px;
+    height: 500px;
+    padding-top: 1em;
 }
 
 #testimonianze h2 {
     color: #ffff;
-    font-size: 1.5em;
-    padding-bottom: 0.7em;
+    font-size: 2em;
 }
 
 #ceo-cit {
     font-style: italic;
-    padding-bottom: 1em;
+    margin-bottom: 1em;
 }
 
 #testimonianze-text {
@@ -101,10 +113,11 @@ button {
     margin: auto;
     text-align: center;
     padding-top: 2em;
+    font-size: 1.5em;
 }
 
 #role {
-    font-size: 0.8em;
+    font-size: 0.7em;
 }
 
 .card {
