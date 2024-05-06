@@ -1,0 +1,157 @@
+body {
+    color: #393d41;
+    font-size: 1.2rem;
+    font-family: 'Open sans';
+    line-height: 1.65;
+    max-width: 500px;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #25a2c3;
+    font-family: "Montserrat";
+    line-height: 1.6;
+    font-weight: bold;
+}
+
+#header {
+    width: 100%;
+    background-color: #000000;
+    height: 8vh;
+}
+
+#logo {
+    display: block;
+    margin: auto;
+    width: 150px;
+    padding-top: 0.5em;
+}
+
+#banner-box {
+    background-image: url('../images/banner.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 350px;
+}
+
+.banner-text {
+    padding-top: 2em;
+    width: 80%;
+    margin: auto;
+}
+
+.banner-text h1 {
+    font-size: 1.5em;
+}
+
+.banner-text p {
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+    width: 80%;
+    margin: auto;
+}
+
+button {
+    font-family: "Montserrat";
+    font-weight: bold;
+    background-color: #f04c2f;
+    color: #ffff;
+    border-radius: 10px;
+    width: 180px;
+    height: 50px;
+    font-size: 1em;
+}
+
+#secondary-content {
+    text-align: center;
+}
+
+#secondary-content img {
+    border-radius: 50%;
+    margin-bottom: 1.5em;
+}
+
+#secondary-content p {
+    margin-bottom: 2em;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+#testimonianze {
+    background-color: #e22d0e;
+    color: #ffff;
+    height: 300px;
+}
+
+#testimonianze h2 {
+    color: #ffff;
+    font-size: 1.5em;
+    padding-bottom: 0.7em;
+}
+
+#ceo-cit {
+    font-style: italic;
+    padding-bottom: 1em;
+}
+
+#testimonianze-text {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 2em;
+}
+
+#role {
+    font-size: 0.8em;
+}
+
+.card {
+    border: 1px solid lightgray;
+    border-radius: 0px 0px 5px 5px;
+    width: 90%;
+    margin: auto;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.card p {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1.5em;
+}
+
+footer {
+    color: #c8e7f0;
+    background-color: #25a2c3;
+    text-align: center;
+    margin-top: 3em;
+}
+
+footer a { /* il colore indicato nella consegna per footer link è lo stesso di footer, quindi non c'è differenza tra i due colori */
+    color: #c8e7f0;
+}
+
+footer h2 {
+    color: #ffff;
+    padding-top: 0.8em;
+    font-size: 1.5em;
+    padding-bottom: 0.7em;
+}
+
+footer ul {
+    list-style: none;
+    padding-bottom: 0.8em;
+}
+
+#copyright {
+    width: 50%;
+    margin: auto;
+    border-top: solid 1px white;
+    padding-top: 0.8em;
+}
