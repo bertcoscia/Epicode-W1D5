@@ -5,7 +5,6 @@ body {
     line-height: 1.65;
     min-width: 1366px;
     max-width: 1920px;
-    margin: auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -94,7 +93,7 @@ button {
 #testimonianze {
     background-color: #e22d0e;
     color: #ffff;
-    height: 500px;
+    height: 400px;
     padding-top: 1em;
 }
 
@@ -120,30 +119,36 @@ button {
     font-size: 0.7em;
 }
 
+#card-section {
+    text-align: center;
+    margin: auto;
+}
+
 .card {
+    width: 500px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 3em;
+    margin-right: 2.2em;
     border: 1px solid lightgray;
     border-radius: 0px 0px 5px 5px;
-    width: 90%;
-    margin: auto;
-    margin-top: 2em;
-    text-align: center;
+    font-size: 1.09em;
 }
 
 .card img {
-    max-width: 100%;
+    width: 500px;
+    height: 350px;
 }
 
-.card p {
-    width: 80%;
-    margin: auto;
-    margin-bottom: 1.5em;
+.card-text {
+    margin-bottom: 1em;
 }
 
 footer {
     color: #c8e7f0;
     background-color: #25a2c3;
-    text-align: center;
     margin-top: 3em;
+    text-align: center;
 }
 
 footer a { /* il colore indicato nella consegna per footer link è lo stesso di footer, quindi non c'è differenza tra i due colori */
@@ -157,13 +162,18 @@ footer h2 {
     padding-bottom: 0.7em;
 }
 
+.foot-container {
+    width: 40%;
+    margin: auto;
+}
+
 footer ul {
     list-style: none;
     padding-bottom: 0.8em;
 }
 
 #copyright {
-    width: 50%;
+    width: 20%;
     margin: auto;
     border-top: solid 1px white;
     padding-top: 0.8em;
